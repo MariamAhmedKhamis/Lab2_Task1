@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(240, 134, 27);
+    color: white;
+    padding: 3pc;
+    display: flex;
+    align-items: center;
+}
+
+#myimg {
+    padding: auto;
+    border-radius: 200px;
+    background: white;
+    margin-right: 1.5rem;
+}
+
+
+
+
+main {
+    display: flex;
+    max-width: 1000px;
+    margin: 2rem auto;
+    background: white;
+}
+
+
+.left {
+    margin-left: auto;
+    width: 50%;
+}
+
+.bar {
+    background-color: gray;
+    height: 10px;
+    margin-bottom: 5px;
+}
+
+.bar span {
+    display: block;
+    height: 100%;
+}
+
+.Arabic {
+    background-color: green;
+    width: 90%;
+}
+
+.english {
+    background-color: red;
+    width: 80%;
+}
+
+.german {
+    background-color: blue;
+    width: 20%;
+}
+
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(240, 134, 27);
+    color: white;
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+
+
+.Right {
+    width: 65%;
+    float: right;
+    margin-left: 30rem;
+}
+
+.title {
+    background-color: rgb(240, 134, 27);
+    color: white;
+    padding: auto;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(240, 134, 27);
+}
+
+
+
+
+i {
+    color: #4a90e2;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+
+
+.skills {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4a90e2, #6fb1fc);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+/*
+@media (min-width: 768px) {
+    #header {
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .header-info {
+        text-align: left;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .Right {
+        width: 65%;
+        margin-left: auto;
+    }
+}
+    
+*/
